@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Simple Ripple</title>
+</head>
+<body>
+  <h1>Material Ripple without jQuery</h1>
+  <p class='op-70'>Because we dont need 82kb for something so simple.</p>
+  <p>CodePen by <a href='https://codepen.io/TrevorWelch/'>Trevor Welch</a>. Inspired by Craig Tuttle's <a href='https://codepen.io/Craigtut/pen/dIfzv?editors=1010'>pen</a>.</p>
+  
+  <h2>Classic Ripple</h2>
+  <div class='stage'>
+    <button class='red-button myRipple'>CLICK ME</button>
+    <button class='blue-button myRipple'>CLICK ME</button>
+    <button class='green-button myRipple'>CLICK ME</button>
+    <button class='yellow-button myRipple'>CLICK ME</button>
+    <button class='purple-button myRipple'>CLICK ME</button>
+  </div>
+  
+  <h2>Custom Ripple Colors</h2>
+  <div class='stage'>
+    <button class='custom-button myRipple' ripple-color='#F44336'>CLICK ME</button>
+    <button class='custom-button myRipple' ripple-color='#1E88E5'>CLICK ME</button>
+    <button class='custom-button myRipple' ripple-color='#43A047'>CLICK ME</button>
+    <button class='custom-button myRipple' ripple-color='#FFC107'>CLICK ME</button>
+    <button class='custom-button myRipple' ripple-color='#9C27B0'>CLICK ME</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
